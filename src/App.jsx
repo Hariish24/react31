@@ -11,8 +11,8 @@ import EmployeeData from './Component/EmployeeData';
 import Product from './Component/Product';
 import Users from './User/Users';
 let App= ()=>{
-    return <div style={{background:'black', color:'white'}}>
-        <h1>App Component</h1>
+    return <div >
+        {/* <h1>App Component</h1> */}
         {/* <h1 style={{color:'red'}}>Royal Enfield®️ </h1> */}
         
         <Users />
