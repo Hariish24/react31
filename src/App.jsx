@@ -8,11 +8,14 @@ import WithblindingEx from './Component/WithblindingEx';
 import BlindUsingFun from './Component/BlindUsingFun';
 import ComponentA from './Component/ComponentA';
 import EmployeeData from './Component/EmployeeData';
+import Product from './Component/Product';
+import Users from './User/Users';
 let App= ()=>{
-    return <div>
-        <h1>App component</h1>
-        <hr />
-        <ComponentA />
+    return <div style={{background:'black', color:'white'}}>
+        <h1>App Component</h1>
+        {/* <h1 style={{color:'red'}}>Royal Enfield®️ </h1> */}
+        
+        <Users />
 
     </div>
 
